@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Ejercicio flex</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <!-- Contenedor flex que envuelve sidebar y main -->
+  <div style="display:flex; height: 100vh;">
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+      <!-- Todos los chats y botón Nuevo chat aquí -->
+      <div class="chat-item">
+        <div class="meta">
+          <img src="assets/img/maria.jpg" alt="Foto de María">
+          <div class="texto">
+            <p class="nombre">María</p>
+            <p class="estado">Activo ahora</p>
+          </div>
+        </div>
+        <div class="acciones">
+          <button style="background:none;border:none;padding:0;margin:0;cursor:pointer;" aria-label="Más opciones de María">
+            <i class="fa-regular fa-message"></i>
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+      <div style="margin-top: 20px; text-align: center;">
+        <button style="background-color: #A491D2; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 14px; cursor: pointer;">
+          Nuevo chat
+        </button>
+      </div>
+<!-- chat 2 -->
+      <div class="chat-item"> <div class="meta"> <img src="assets/img/JUANITA.jpg" alt="Juanita"> 
+        <div class="texto"> <p class="nombre">Juanita</p> <p class="estado">At vero eos et accusa</p>
+         </div> </div> 
+         <div class="acciones"> <button style="background:none;border:none;padding:0;cursor:pointer;" aria-label="Más opciones de Juanita">
+             </button> </div> </div>
+<!-- chat 3 -->
+  <div class="chat-item"> <div class="meta"> <img src="assets/img/ALBERTO.jpg" alt="alberto"> 
+    <div class="texto"> <p class="nombre">Alberto</p> 
+    <p class="estado">blanditiis praesentium</p> </div> </div> 
+    <div class="acciones"> <button style="background:none;border:none;padding:0;cursor:pointer;" aria-label="Más opciones de Alberto"> 
+    </button> </div> </div>
+<!-- chat 4 -->    
+    <div class="chat-item"> <div class="meta"> <img src="assets/img/Ignacio.jpg" alt="Ignacio"> 
+    <div class="texto"> <p class="nombre">Ignacio</p>
+     <p class="estado">officiis debitis aut</p> </div> </div>
+      <div class="acciones"> <button style="background:none;border:none;padding:0;cursor:pointer;" aria-label="Más opciones de Ignacio">
+     </button> </div> </div>
+ <!-- chat 5 -->     
+   <div class="chat-item"> <div class="meta"> <img src="assets/img/CRISTIAN.jpg" alt="Cristian">
+   <div class="texto"> <p class="nombre">Cristian</p> <p class="estado">Nam libero tempore</p> 
+  </div> </div> <div class="acciones"> <button style="background:none;border:none;padding:0;cursor:pointer;" aria-label="Más opciones de Cristian"> 
+  </button> </div> </div> 
+   <!-- chat 6 --> 
+  <div class="chat-item"> <div class="meta"> <img src="assets/img/MARIAJOSE.jpg" alt="Maria Jose">
+     <div class="texto"> <p class="nombre">Maria Jose</p> <p class="estado">impedit quo minus id</p>
+     </div> </div> <div class="acciones"> <button style="background:none;border:none;padding:0;cursor:pointer;" aria-label="Más opciones de Maria Jose"> 
+     </button> </div> </div>
+<!-- chat 7 -->  
+  <div class="chat-item"> <div class="meta"> <img src="assets/img/GONZALO.jpg" alt="Gonzalo">
+     <div class="texto"> <p class="nombre">Gonzalo</p> <p class="estado">At vero eos et accusa</p> </div> </div> 
+     <div class="acciones"> <button style="background:none;border:none;padding:0;cursor:pointer;" aria-label="Más opciones de Gonzalo">
+     </button> </div> </div> <div class="chat-item">
+  <!-- chat 8 -->       
+<div class="meta"> <img src="assets/img/JUAN_PABLO.jpg" alt="Juan Pablo"> <div class="texto"> <p class="nombre">Juan Pablo</p> 
+    <p class="estado">necessitatibus saepe</p> </div> </div> 
+    <div class="acciones"> <button style="background:none;border:none;padding:0;cursor:pointer;" aria-label="Más opciones de Juan Pablo">
+     </button> </div> </div> <div class="chat-item"> 
+ <!-- chat 9 --> 
+  <div class="meta"> <img src="assets/img/MAGDALENA.jpg" alt="Magdalena"> <div class="texto"> <p class="nombre">Magdalena</p>
+     <p class="estado">ut et voluptates</p> </div> </div> <div class="acciones">
+         <button style="background:none;border:none;padding:0;cursor:pointer;" aria-label="Más opciones de Magdalena"> </button> </div>
+
+      </div>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="container">
+      <img src="assets/img/hand.png" alt="Mano" style="width:200px;height:auto;">
+      <p id="text-contenido">
+        <strong>Comienza el Networking</strong><br>
+        Presiona el botón <strong>“Nuevo chat”</strong> para comenzar a crear nuevas
+        redes de contacto para tu empresa o emprendimiento.
+      </p>
+    </main>
+  </div>
+</body>
+</html>

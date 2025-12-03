@@ -1,0 +1,74 @@
+body > div {
+  display: flex;
+  height: 100%;
+}
+
+
+.sidebar { width: 260px; background-color: #f8f8f8; }
+    .chat-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* empuja el icono a la derecha */
+      gap: 10px;
+      padding: 12px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+   .chat-item .meta {
+  display: flex;           /* organiza hijos en fila */
+  align-items: center;     /* centra verticalmente la imagen y el texto */
+  gap: 10px;               /* espacio entre imagen y texto */
+}
+
+    .chat-item .meta img {
+  width: 50px;             /* ancho fijo */
+  height: 50px;            /* alto fijo */
+  border-radius: 50%;      /* círculo */
+  object-fit: cover;       /* la imagen se recorta bien */
+}
+
+    .chat-item .texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .chat-item .nombre {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .chat-item .estado {
+      margin: 0;
+      font-size: 11px;
+      color: gray;
+    }
+
+    /* estilo del icono a la derecha */
+    .chat-item .acciones {
+      margin-left: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .chat-item .acciones i {
+      font-size: 18px;
+      color: #777;
+      cursor: pointer;
+      padding: 6px;
+      border-radius: 4px;
+    }
+    .chat-item .acciones i:hover {
+      background: rgba(0,0,0,0.04);
+      color: #333;
+    }
+
+.container {
+  flex: 1;                        /* ocupa el espacio restante del flex principal */
+  display: flex;                   /* activa flexbox */
+  flex-direction: column;          /* apila hijos verticalmente */
+  justify-content: center;         /* centra verticalmente */
+  align-items: center;             /* centra horizontalmente */
+  padding: 40px;
+  text-align: center;              /* centra texto dentro del <p> */
+  height: 100vh;                   /* opcional: que ocupe toda la altura de la pantalla */
+}
+
