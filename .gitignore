@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de compilación
+dist/
+build/
+
+# Imágenes temporales
+*.png
+*.jpg
