@@ -25,3 +25,7 @@ plataforma. Por lo cual, te han solicitado que realices el layout de la siguient
 ## Diseño Finalizado 🔨
 
 ![Trabajo final](assets/img/trabajo.jpg)
+
+✨ Autora
+
+Ariadna Jara Delgado 2025
