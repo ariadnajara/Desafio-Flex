@@ -19,15 +19,8 @@ plataforma. Por lo cual, te han solicitado que realices el layout de la siguient
 
 ## Estructura 💻
 
-proyecto/
-├─ index.html
-├─ README.md
-├─ .gitignore
-├─ assets/
-   ├─ css/
-      └─ styles.css
-   ├─ img/
-      └─ todas tus imágenes
+<img width="408" height="272" alt="image" src="https://github.com/user-attachments/assets/9b58ba7c-0a53-48c0-bc30-bb477af2f1c2" />
+
 
 ## Diseño Finalizado 🔨
 
