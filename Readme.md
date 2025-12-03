@@ -16,6 +16,19 @@ plataforma. Por lo cual, te han solicitado que realices el layout de la siguient
 - CSS
 - Flex
 
+
+## Estructura 💻
+
+proyecto/
+├─ index.html
+├─ README.md
+├─ .gitignore
+├─ assets/
+   ├─ css/
+      └─ styles.css
+   ├─ img/
+      └─ todas tus imágenes
+
 ## Diseño Finalizado 🔨
 
 ![Trabajo final](assets/img/trabajo.jpg)
